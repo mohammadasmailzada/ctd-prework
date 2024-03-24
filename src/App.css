@@ -1,19 +1,4 @@
-header {
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(25, 23, 23);
-  color: azure;
-}
 
-h1 {
-  font-size: 80px;
-}
-
-h3 {
-  font-size: 30px;
-}
 
 #search {
   display: flex;
@@ -28,7 +13,7 @@ h3 {
 
 #search-results {
   list-style-type: none;
-  max-height: 200px;
+  max-height: 500px;
   width: 300px;
   overflow-y: scroll;
   position: relative;
@@ -45,22 +30,17 @@ h3 {
   border-radius: 2px;
 }
 
-#result {
-  color: rgb(107, 27, 27);
-}
-
 #breed-collection {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid gray;
 }
 
 #breed-info {
-  width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -75,7 +55,13 @@ h3 {
 }
 
 .breedImage {
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   margin: 10px;
-  border-radius: 10px;}
+  border-radius: 30px;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-around;
+}
